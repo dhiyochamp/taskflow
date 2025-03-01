@@ -14,7 +14,7 @@ const Footer = ({ isDarkMode }) => {
           <span className="text-primary-light mr-2">✓</span>
           <span className="font-medium">TaskFlow</span>
           <span className="mx-2">|</span>
-          <span className="text-sm">&copy; {currentYear} All Rights Reserved</span>
+          <span className="text-sm">&copy; {currentYear} All Rights Reserved by Abhay Singh</span>
         </div>
         
         <div className="flex items-center text-sm">
@@ -36,7 +36,7 @@ const Footer = ({ isDarkMode }) => {
           
           <motion.a
             whileHover={{ scale: 1.1 }}
-            href="https://github.com/yourusername/taskflow"
+            href="https://github.com/dhiyochamp/taskflow"
             target="_blank"
             rel="noopener noreferrer"
             className={`ml-4 p-2 rounded-full transition-colors ${
