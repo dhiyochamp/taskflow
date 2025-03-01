@@ -20,18 +20,21 @@ TaskFlow is a **feature-rich, interactive To-Do List application** built with **
 ## 📂 Project Structure
 
 ```
-taskflow/
+todo-list-app/
 │── public/           # Static assets
 │── src/
-│   ├── components/   # Reusable components
-│   │   ├── TodoList.js
-│   │   ├── TodoItem.js
-│   │   ├── AddTask.js
-│   ├── styles/       # CSS files
-│   ├── App.js        # Main app component
+│   ├── components/   # Reusable components (to be created)
+│   ├── assets/       # Images, fonts, and other static files
+│   ├── hooks/        # Custom React hooks
+│   ├── utils/        # Utility functions
+│   ├── context/      # React context for state management
+│   ├── styles/       # CSS and styling files
+│   ├── App.jsx       # Main app component
 │   ├── main.jsx      # React entry point
 │── package.json      # Project dependencies
 │── vite.config.js    # Vite configuration
+│── tailwind.config.js # Tailwind CSS configuration
+│── .gitignore        # Git ignore file
 │── README.md         # Documentation
 ```
 
@@ -43,7 +46,7 @@ To run this project locally, follow these steps:
 
 ```sh
 git clone https://github.com/your-username/taskflow.git
-cd taskflow
+cd todo-list-app
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -60,9 +63,19 @@ npm run dev
 
 Your app will be live at `http://localhost:5173/` 🚀
 
+## 💻 Component Creation Guide
+
+Since your components directory is currently empty, here are the key components you'll need to create:
+
+1. **TodoList.jsx** - Container component for all todo items
+2. **TodoItem.jsx** - Individual todo item with edit/delete functionality
+3. **AddTask.jsx** - Form for adding new tasks
+4. **TaskFilter.jsx** - Component for filtering and sorting tasks
+5. **ThemeToggle.jsx** - Button for switching between light and dark mode
+
 ## 🔥 Screenshots
 
-[Your screenshots will go here]
+[Your screenshots will go here once the application is built]
 
 ## 🤝 Contributing
 
